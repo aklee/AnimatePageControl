@@ -1,12 +1,13 @@
 # AnimatePageControl
-自定义的弹性小球pageControl。
+具弹性动画的pageControl
 
 <br /><br />
 
-####UI<br />
-![image](./dot.gif)<br /><br />
+#### UI<br />
+![image](/dot.gif)<br /><br />
 
-####Usage<br />
+
+#### Usage<br />
 - Ease to start
 
 ```swift
@@ -41,10 +42,6 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, 
   }
   func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
     pageControl.lastOffset = scrollView.contentOffset.x
+  } 
   }
-  }    
-    
-    
-    
-    ```
 
